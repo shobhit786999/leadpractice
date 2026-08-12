@@ -1,0 +1,3 @@
+lst = ['apple','banana','mango','orange','kiwi']
+newfruit = filter(lambda  fruit : "i" in fruit,lst)
+print(list(newfruit))
