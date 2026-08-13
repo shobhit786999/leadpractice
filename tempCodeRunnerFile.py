@@ -1,7 +1,5 @@
-num1 = int(input("enter the first number "))
-num2 = int(input("enter the second number "))
-result = 0 
-for value in range (num2):
-    result+=num1
-    
-print("mulyiplication",result) 
+sum = 0 
+for i in range(5):
+    num = int(input("enter the number "))
+    sum=sum+num
+print("sum is ",sum)
