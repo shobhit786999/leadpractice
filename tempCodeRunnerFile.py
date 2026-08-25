@@ -1,5 +1,3 @@
-sum = 0 
-for i in range(5):
-    num = int(input("enter the number "))
-    sum=sum+num
-print("sum is ",sum)
+month = int(input("enter the month"))
+calender = calendar.month(year,month)
+print(calendar)
