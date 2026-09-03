@@ -1,4 +1,5 @@
 arr = [10,12,1,13,4,65,6]
+# arr = [input("enter number ")]
 target = 10
 
 if target in arr:
